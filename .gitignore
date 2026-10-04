@@ -1,0 +1,21 @@
+# Environment variables (never commit real secrets)
+.env
+.env.local
+
+# Frontend (Node / Vite)
+node_modules/
+dist/
+frontend/dist/
+
+# Backend (Maven / Java)
+target/
+backend/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
